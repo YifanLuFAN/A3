@@ -1,0 +1,453 @@
+.container1{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.container2{
+    background-color: #F7F4EF;
+    text-align: center;
+}
+header{
+    width: 946px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo{
+    display: block;
+    float:left;
+}
+.logo img{
+    width: 40%;
+}
+.menu{
+    display: block; 
+    float:right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+.menu img{
+    width: 30px;
+    margin-left: 40px;
+}
+nav{
+    clear: both;
+    width: 946px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -35px;
+}
+nav li{
+    display: inline;
+    margin-left: 40px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+nav li:hover{
+    color: #763A15;
+    text-decoration: none;
+}
+.banner{
+    width:946px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.banner img{
+    width:100%;
+}
+.category{
+    width:946px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.category h2{
+    font-size: 50px;
+    font-family: "Oleo Script", system-ui;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.category-item{
+    width: 12%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right:15px;
+}
+.category-item img{
+    width: 100%;
+}
+.category p{
+    display: inline;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.popular{
+    background-color: #D2B48C;
+    width: 946px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.popular h2{
+    font-size: 40px;
+    font-family: "Oleo Script", system-ui;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.popular-item{
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right:15px;
+}
+.popular-item img{
+    width: 100%;
+}
+.popular p{
+    display: inline;
+    font-size: 18px;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.bannerSub{
+    width:946px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.bannerSub img{
+    width:100%;
+}
+
+.sort{
+    width: 946px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sort button{
+    width: 120px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.productList{
+    width:946px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.productItem{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.productItem img{
+    width: 100%;
+}
+
+.productName{
+    display: block;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.productlistPrice{
+    display: block;
+    font-size: 18px;
+    color: #763A15;
+    font-family: "Pattaya", sans-serif;
+    line-height: 0px;
+} 
+
+.productIntroduction{
+    width: 946px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.IntroductionPicture{
+    display: inline-block;
+    width: 55%;
+}
+
+.IntroductionPicture img{
+    width: 100%;
+}
+
+.Introduction1{
+    display: inline-block;
+    width:40%;
+    text-align: left;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.Introduction1 h1{
+    font-size: 30px;
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Introduction1 h2{
+    font-size: 30px;
+    font-family: "Oleo Script", system-ui;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.IntroductionText{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.IntroductionPrice{
+    font-size: 30px;
+    color:#763A15;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 600;
+} 
+
+.Introduction1 a{
+    display: block;
+}
+.Introduction1 img{
+    margin-top: 55px;
+    float: right;
+    width: 30%;
+}
+
+.Introduction2{
+    display: inline-block;
+    width:40%;
+    text-align: left;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.Introduction2 h1{
+    font-size: 30px;
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Introduction2 h2{
+    font-size: 30px;
+    font-family: "Oleo Script", system-ui;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.IntroductionText{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.Introduction2 a{
+    display: block;
+}
+.Introduction2 img{
+    margin-top: 75px;
+    float: right;
+    width: 30%;
+}
+.buy{
+    width: 946px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.buy button{
+    width: 140px;
+    height: 35px;
+    background-color: #916135;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    float: right;
+    margin-right: 7px;
+    margin-top: -10px;
+}
+
+.comments{
+    width: 946px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.comments h2{
+    font-size: 40px;
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.comment1{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right:10px;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.comment2{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    height: 150px;
+    margin-left: 40px;
+    margin-right:10px;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.comment1 img{
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.comment2 img{
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.comment1 p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.comment2 p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.cart{
+    width: 946px;
+    display: inline-block;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+.cart h1{
+    font-size: 40px;
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.cartList p{
+    display:inline-block;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 65px;
+}
+
+.cartImage{
+    display: inline-block;
+    width:25%;
+    vertical-align: middle;
+}
+
+.cartImage img{
+    width: 100%;
+}
+
+.cartInformation{
+    display: inline-block;
+    width:30%;
+    vertical-align: middle;
+}
+
+.cartInformation h2{
+    font-size: 25px;
+    font-family: "Oleo Script", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.cartAmount{
+    display: inline-block;
+    width:16%;
+    vertical-align: middle;
+    margin-left: -5px;
+    margin-right: 15px;
+}
+
+.cartAmount img{
+    width:100%;
+}
+
+.cartPrice{
+    display: inline-block;
+    width:25%;
+    vertical-align: middle;
+    font-size: 30px;
+    color:#763A15;
+    font-family: "Oleo script", sans-serif;
+    font-weight: 600;
+}
+
+.cart hr{
+    border:1.5px solid black;
+}
+
+
+
+
